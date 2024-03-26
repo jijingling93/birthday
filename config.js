@@ -1,42 +1,42 @@
-// 霸都丶傲天 2019年10月10日 https://github.com/AJLoveChina/birthday
+//Badu, Aotian October 10, 2019 https://github.com/AJLoveChina/birthday
 var config = {
-    // 句子的长度可以任意， 你可以写十句话， 二十句话都可以
-    // 每句话尽量不要超过15个字,不然展示效果可能不太好
-    texts: [
-        "送给我",      //这里,每句话结尾的最后一个逗号必须是英文的哦!! 很重要哦!!
-        "心爱的小可爱",  // 同上...
-        "今天是你的生日",
-        "这是我们在一起的",
-        "第三个生日了哦",
-        "去年的生日",
-        "还记得在王婆串串吃的呢",
-        "今年要吃好的喽哦",
-        "要把我家可爱猪猪喂饱饱",
-        "然后抱走",
-        "YAMI~~",
-    ],
-    /**
-     * imgs 可以不填, 但是如果要填写的话必须遵循下面的格式
-     * "对应上面的文字, 要完全一样" : "图片地址, 可以把图片放在imgs文件夹中"
-     * 例如
-     * "心爱的小可爱": "./imgs/xiaokeai.jpg"
-     *
-     * 如果不要图片的话, 直接在每行开头写两个斜杠注释即可, 例如下面的 "今天是你的生日" 的图片就不会展示了:)
-     * Tip: 图片最好用正方形or接近正方形, 看起来效果更好
-     */
-    imgs: {
-        "心爱的小可爱": "./imgs/xiaokeai.png",
-        // "今天是你的生日": "./imgs/birthday.jpg",
-    },
-    // 按钮文字描述, 以下是默认的按钮文字，英文的，您可以改成你喜欢的文字
-    desc: {
-        turn_on: "开始",
-        play: "音乐",
-        bannar_coming: "颜色",
-        balloons_flying: "好像少点东西",
-        cake_fadein: "蛋糕？",
-        light_candle: "蜡烛？",
-        wish_message: "生日快乐",
-        story: "A MESSAGE FOR YOU",
-    }
+     // The length of the sentence can be arbitrary. You can write ten sentences or twenty sentences.
+     // Try not to exceed 15 words per sentence, otherwise the display effect may not be very good
+     texts: [
+         "Give it to me", //Here, the last comma at the end of each sentence must be in English!! It's very important!!
+         "My beloved little cutie", // Same as above...
+         "Today is your birthday",
+         "This is what we do together",
+         "It's my third birthday",
+         "last year's birthday",
+         "I still remember eating at Wang Po Chuan Chuan",
+         "I want to eat well this year",
+         "I want to feed my cute pigs well",
+         "Then take it away",
+         "YAMI~~",
+     ],
+     /**
+      * imgs can be left blank, but if it is filled in, it must follow the following format
+      * "Corresponding to the text above, it must be exactly the same": "Picture address, you can put the picture in the imgs folder"
+      * For example
+      * "Lovely little cutie": "./imgs/xiaokeai.jpg"
+      *
+      * If you don’t want pictures, just write two slash comments at the beginning of each line. For example, the picture of "Today is your birthday" below will not be displayed:)
+      * Tip: It is best to use a square or close to a square for the picture, which will look better
+      */
+     imgs: {
+         "Lovely little cutie": "./imgs/xiaokeai.png",
+         // "Today is your birthday": "./imgs/birthday.jpg",
+     },
+     //Button text description, the following is the default button text, in English, you can change it to the text you like
+     desc: {
+         turn_on: "start",
+         play: "music",
+         banner_coming: "color",
+         balloons_flying: "There seems to be something missing",
+         cake_fadein: "Cake?",
+         light_candle: "Candle?",
+         wish_message: "Happy birthday",
+         story: "A MESSAGE FOR YOU",
+     }
 };
